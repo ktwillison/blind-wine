@@ -1,0 +1,41 @@
+body {
+  font: 10px sans-serif;
+}
+
+.bar rect {
+  fill: steelblue;
+  shape-rendering: crispEdges;
+}
+
+.bar text {
+  fill: #fff;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.button {
+    background-color: #e7e7e7; 
+    color: black;
+    border: none;
+    padding: 5px 5px;
+    margin: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.button.selected {
+  background-color: steelblue;
+  color: white;
+}
+
+.button.settings {
+  background-color: #4CAF50;
+  color: white;
+}
